@@ -1,0 +1,17 @@
+class Main {
+  public static void main(String[] args){
+  int a=5;
+  int b=5;
+  int c=5;
+  int A;
+  int s;
+  {
+    s=(a+b+c)/2;
+    A= ((s-a)*(s-b)*(s-c))*((s-a)*(s-b)*(s-c));
+  }
+  System.out.println("The area of triangle is "+A);
+  } 
+}
+
+Трактиръ Под горой, [2 дек. 2020 г., 20:11:44]:
+class Mai...
