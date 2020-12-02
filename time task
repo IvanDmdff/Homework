@@ -1,0 +1,13 @@
+class Main {
+  public static void main(String[] args){
+  int h;
+  int m;
+  int s=86399;
+  {
+   h=s/3600;
+   m=s%60;
+   s=s%60;
+  }
+  System.out.println(h+":"+m+":"+s);
+  } 
+}
